@@ -1,112 +1,70 @@
-body {
+body{
+    margin: auto;
+    width: 1270px;
+    max-width: 100%;
+    height: 5000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logofundo{
+    background-color: green;
     width: 100%;
-    max-width: 990px;
-    margin: 0 auto;
-    font: .9em/1.2 Arial, Helvetica, sans-serif;
-    height: 10000;
-  }
-
-  .box {
-    position: sticky;
-    border: 2px solid blue;
-    float: left;
-    width: 297px;
-    height: 300px;
-    border-radius: 0px;
-    background-color: rgb(207,232,220);
-    padding: 1em;
-  }
-
-  .box2{
-    position: relative;
-    border: 2px solid green;
-    margin-left: 0px;
-    float: left;
-    width: 297px;
-    height: 300px;
-    border-radius: 0px;
-    background-color: rgb(207,232,220);
-    padding: 1em;
-  }
-
-  .box3{
-    position: static;
-    border: 2px solid purple;
-    margin-left: 0px;
-    float: right;
-    width: 297px;
-    height: 300px;
-    border-radius: 0px;
-    background-color: rgb(207,232,220);
-    padding: 1em;
-  }
-
-  .box4{
-    position: relative;
-    border: 2px solid red;
-    float: left;
-    width: 960px;
-    height: 300px;
-    border-radius: 5px;
-    background-color: rgb(207,232,220);
-    padding: 1em;
-  }
-
-  .box5{
-    position: relative;
-    border: 2px solid peru;
-    float: left;
-    width: 960px;
-    height: 300px;
-    border-radius: 5px;
-    background-color: rgb(207,232,220);
-    padding: 1em;
-  }
-  .box6{
-    border: 2px solid greenyellow;
-    float: left;
-    width: 300px;
-    height: 800px;
-    border-radius: 5px;
-    background-color: rgb(207,232,220);
-  }
-  .box7{
-    border: 2px solid blue;
-    float: left;
-    width: 681px;
-    height: 500px;
-    border-radius: 5px;
-    background-color: rgb(207,232,220);
 }
-.box8{
-  border: 2px solid royalblue;
-  float: left;
-  width: 681px;
-  height: 295px;
-  border-radius: 5px;
-  background-color: rgb(207,232,220);
+#container{
+    background: linear-gradient(to right,#77430d, #e28340,#e89b81) ;
+    border-radius: 2px;
+    max-width: 1280px;          
+    width: 100%;            
+    height: auto;
 }
-.box9{
-  border: 2px solid sienna;
-  float: left;
-  width: 300px;
-  height: 500px;
-  border-radius: 5px;
-  background-color: rgb(207,232,220);
+#logo{
+    width:50px;
+    height: 50px;
+    margin-left: 1em;
 }
-.box10{
-  border: 2px solid teal;
-  float: left;
-  width: 681px;
-  height: 500px;
-  border-radius: 5px;
-  background-color: rgb(207,232,220);
+
+#todomenu{
+    float:right;
+    text-decoration: none;
 }
-.box11{
-  border: 2px solid tomato;
-  float: left;
-  width: 985px;
-  height: 150px;
-  border-radius: 5px;
-  background-color: rgb(207,232,220);
+#menu{
+    list-style-type: none;
+    float: left;
+}
+li{
+    padding-right: 20px;
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.oqueé:hover{
+    background-color:#E5B109;
+}
+a.fiqueatento:hover{
+    background-color:#E5B109;
+}
+a.façaasuaparte:hover{
+    background-color:#E5B109;
+}
+a.ods:hover{
+    background-color:#E5B109;
+}
+@media (max-width: 700px) {
+    #todomenu {
+     display:none;
+    }
+}
+@media (max-width: 700px) {
+    #logo {
+        margin-left: 41vw;
+    }
+}
+.paragrafoz{
+    margin-top: 100px;
+    float: left;
+    margin-right: 50px;
 }
